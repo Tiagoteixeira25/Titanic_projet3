@@ -8,14 +8,9 @@ This is a temporary script file.
 
 
 from tkinter import *
-from random import randint,choice
-import string
 import tkinter as tk
-import time
 import tkinter.font as tkFont
-import random
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 import sys
 
@@ -104,7 +99,7 @@ def NouvelleFenetre():
                                  font=("Roman",33, "bold"),anchor='nw')
     canvas_pour_image.create_text(560,300,text="état:",\
                                  font=("Roman",33, "bold"),anchor='nw')
-    canvas_pour_image.create_text(30,450,text="point d'embarquation':",\
+    canvas_pour_image.create_text(30,450,text="point d'embarquation:",\
                                  font=("Roman",33, "bold"),anchor='nw')
 
 
@@ -211,8 +206,6 @@ window.resizable(width=False,height=False)
 
 image_de_fond = PhotoImage(file = "Titanic-PNG.png")
 image_de_fond2 = PhotoImage(file = "Titanic-PNG2.png")
-
-
 image_bouton = PhotoImage(file="Rectangle.png")
 
 
