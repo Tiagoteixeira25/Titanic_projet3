@@ -23,7 +23,7 @@ def ExitSystem():
 
 
 def infos():   
-    data = pd.read_excel('titanic3.xls')
+    data = pd.read_excel('titanic.csv')
     data = data.drop(['classe','état', 'nom', 'sexe', 'ticket',\
                     'age', 'ticket', 'prix payé', 'cabine', 'point d embarquation', 'destination'],axis=1)
     data.dropna()
