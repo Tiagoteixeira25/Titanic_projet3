@@ -24,9 +24,10 @@ Au niveau du partage des tâches, nous avons choisi de travailler en parallèle 
 #### Les fonctions principales 
 Notre programme s'articule en plusieurs fonctions principales:
 
-
-
+infos: traitement des données
+graph_show: affiche un graphique correspondant à l'image
+Nouvelle_fenetre: créer la nouvelle fenêtre de notre interface
 
 
 #### Les difficultés rencontrées 
-Nous avons rencontré quelques difficultés au moment de relier la partie Python de notre programme avec la partie html: nous ne parvenions pas à trouver un langage adapté pour faire l'intermédiraire entre les deux. Nous avons finalement réussi à réglé notre problème par l'intermédiaire de Flask.
+Nous avons rencontré quelques difficultés au moment de relier la partie Python de notre programme avec la partie html: nous ne parvenions pas à trouver un langage adapté pour faire l'intermédiraire entre les deux. Nous avons finalement réussi à réglé notre problème par l'intermédiaire de Tkinter.
