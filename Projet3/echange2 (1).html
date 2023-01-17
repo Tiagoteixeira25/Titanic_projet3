@@ -1,0 +1,168 @@
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TEST QI</title>
+</head>
+
+<body onload="init()">
+
+  <div id="page_1" class="page hidden">
+    <h1 style="color:white;">TITANIC</h1>
+    <h2 style="color:white;">Un wiki fan de toutes les personnes qui étaient sur le Titanic</h2>
+    <h3> </h3>
+    <h4> </h4>
+    <h5> </h5>
+    <h6> </h6>
+<img src="https://focus.telerama.fr/2022/04/15/38/0/4961/2798/1200/0/60/0/39d8dff_344123775-akg-akg5400604.jpg"  height="350px" width="500px"/>
+<p><button onclick="suivant()" id=choix5 style="color:white;">Commencer</button></p>
+  </div>
+
+
+  <div id="page_2" class="page hidden">
+    <h1 style="color:white;">TITANIC</h1>
+    <h2 style="color:white;">    
+
+<!-- Navbar items -->
+    <div id="navlist">
+        <a href="#">Home</a>
+        <a href="#">Filtrer</a>
+        <a href="#">Careers</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+
+<!-- search bar right align -->
+        <div class="search">
+            <form action="#">
+                <input type="text"
+                    placeholder=" Nom ou prénom "
+                    name="search">
+                <button>
+                    <i class="fa fa-search"
+                        style="font-size: 18px;">
+                    </i>
+                </button>
+            </form>
+        </div>
+    </div>
+</h2>
+  <center>
+  <button id="precedent" onclick="precedent()">Précédent</button>
+</center>
+  </div>
+ 
+
+
+
+
+  <script>
+let page = 0;
+const maxpage = 2;
+let score = 0;
+
+function affiche(id) {
+  for(let i = 1; i <= maxpage; i++) {
+    document.getElementById("page_" + i).classList.add("hidden");
+  }
+  document.getElementById("page_" + page).classList.remove("hidden");
+}
+
+
+
+function suivant() {
+  if(page < maxpage) {
+    page++
+    affiche();
+  ///score += i 
+  ///document.getElementById("points").value=score;
+  }
+ 
+}
+
+function precedent() {
+  if(page > 1) {
+    page--;
+    affiche();
+  }
+}
+
+function init() {
+  suivant();
+}
+
+function reset(){
+  page = 1;
+  affiche();
+}
+  </script>
+  <style>
+.hidden {
+  display: none;
+}
+
+body {
+background-color: #010348;
+}
+
+.page {
+  margin: 0 auto;
+  border: 1px solid gray;
+  background-color: ;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem;
+  width: 50rem;
+}
+
+#choix5 {
+  background-color: blue;
+  border-color: #3399ff;
+  border-radius: 25px;
+  height: 35px;
+  width: 125px;
+  position: relative;
+  top: 0px;
+  left: -25px;
+}
+
+  @keyframes blink { 
+    0% { opacity:0; }
+    50% { opacity:1; } 
+    100% { opacity:0; }
+}
+
+#correction{
+  position: relative;
+  top: 25px;
+  left: 30px;
+}
+
+
+#precedent {
+  background-color: lightblue;
+  border-color: skyblue;
+  border-radius: 25px;
+  height: 35px;
+  width: 125px;
+  margin: 1rem;
+  text-align: center;
+}
+
+h2 {
+  background-color: #8C8C8C;
+  border-color: #8C8C8C;
+  border-radius: 25px;
+  margin: auto;
+  position: relative;
+  top: 13px;
+  left: 0px;
+}
+
+#precedent button{
+  padding: 1rem;
+}
+   </style>
+</body>
+
+</html>
