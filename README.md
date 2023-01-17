@@ -33,3 +33,5 @@ Nouvelle_fenetre: créer la nouvelle fenêtre de notre interface
 
 #### Les difficultés rencontrées 
 Nous avons rencontré quelques difficultés au moment de relier la partie Python de notre programme avec la partie html: nous ne parvenions pas à trouver un langage adapté pour faire l'intermédiraire entre les deux. Nous avons finalement réussi à réglé notre problème par l'intermédiaire de Tkinter.
+
+Difficultés de lancement sur certains PC
