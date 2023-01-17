@@ -18,8 +18,8 @@ Les critères que nous abons sélectionnés pour permettre la recherche s'un pas
 
 Au niveau du partage des tâches, nous avons choisi de travailler en parallèle en s'aidant sur les points posant problème. Cependant Tiago s'est plus concentré sur les filtres que proposent notre site web et la partie Python en général tandis que Sonia et Célestine ont assemblé l'interface graphique de l'interface graphique.
 
-
-
+#### Modules utilisés
+Matplotlib,Pandas,Tkinter,sys
 
 #### Les fonctions principales 
 Notre programme s'articule en plusieurs fonctions principales:
