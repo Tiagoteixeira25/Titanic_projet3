@@ -9,7 +9,7 @@ Avec ce projet, nous cherchons à permettre à un utilisateur de retrouver des i
 #### Descriptif détaillé
 
 Pour permettre à l'utilisateur de trouver ces informations, nous avons choisi de créer une page HTML faisant office de moteur de recherche, et permettant à l'utilisateur de filtrer au fur et à mesure au travers de différents critères lui donnant au final la personne recherchée.
-Les critères que nous abons sélectionnés pour permettre la recherche d'un passager sont sa classe, son sexe, son âge, son point d'embarcation, et si ce dernier a survécu ou non.
+Les critères que nous avons sélectionnés pour permettre la recherche d'un passager sont sa classe, son sexe, son âge, son point d'embarcation, et si ce dernier a survécu ou non.
 
 
 
