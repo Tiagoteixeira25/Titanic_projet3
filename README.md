@@ -25,7 +25,9 @@ Au niveau du partage des tâches, nous avons choisi de travailler en parallèle 
 Notre programme s'articule en plusieurs fonctions principales:
 
 infos: traitement des données
+
 graph_show: affiche un graphique correspondant à l'image
+
 Nouvelle_fenetre: créer la nouvelle fenêtre de notre interface
 
 
